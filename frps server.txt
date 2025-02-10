@@ -55,3 +55,8 @@ sudo systemctl start frps
 
 # Step 10: Check the status of the FRP server
 sudo systemctl status frps
+
+
+
+![FRPS Image](https://github.com/aman2004sp/cloud/blob/main/frps.PNG?raw=true)
+
