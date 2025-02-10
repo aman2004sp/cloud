@@ -58,5 +58,5 @@ sudo systemctl status frps
 
 
 
-![FRPS Image](https://github.com/aman2004sp/cloud/blob/main/frps.PNG?raw=true)
+https://github.com/aman2004sp/cloud/blob/main/frps.PNG?raw=true
 
