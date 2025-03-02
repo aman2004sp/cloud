@@ -15,13 +15,13 @@ cd frp_0.47.0_linux_amd64
 nano frps.ini
 
 # Example configuration for frps.ini:
-# [common]
-# bind_port = 7000
-# vhost_http_port = 80
-# vhost_https_port = 443
-# dashboard_port = 7500
-# dashboard_user = admin
-# dashboard_pwd = admin
+ [common]
+ bind_port = 7000
+ vhost_http_port = 80
+ vhost_https_port = 443
+ dashboard_port = 7500
+ dashboard_user = admin
+ dashboard_pwd = admin
 
 # Step 6: Run the FRP server
 ./frps -c ./frps.ini
