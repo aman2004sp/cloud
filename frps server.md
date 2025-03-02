@@ -57,6 +57,7 @@ sudo systemctl start frps
 sudo systemctl status frps
 
 
+#YOUR FRPS SERVER WILL BE DEPLOYED AND YOU CAN SEE:
+![frps](https://github.com/user-attachments/assets/93b3d3c1-bc17-4a42-95d2-4aade1b8b17b)
 
-https://github.com/aman2004sp/cloud/blob/main/frps.PNG?raw=true
 
