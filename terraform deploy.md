@@ -100,5 +100,10 @@ This command applies the changes described in the configuration without requirin
 terraform destroy -auto-approve
 ```
 This command destroys all the resources managed by Terraform, again without requiring a confirmation prompt.
+
+
+
+![terraform](https://github.com/user-attachments/assets/0dbecd06-1ca0-417d-9274-d2ee8d08a5dd)
+
 ```
 
