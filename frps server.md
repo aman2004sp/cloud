@@ -1,63 +1,48 @@
-# Step 1: Update your system
-sudo apt update
-sudo apt upgrade -y
-
-# Step 2: Download FRP
-wget https://github.com/fatedier/frp/releases/download/v0.47.0/frp_0.47.0_linux_amd64.tar.gz
-
-# Step 3: Extract the downloaded tar.gz file
-tar -xvzf frp_0.47.0_linux_amd64.tar.gz
-
-# Step 4: Move to the FRP folder
-cd frp_0.47.0_linux_amd64
-
-# Step 5: Edit the frps.ini file with nano or your preferred text editor
-nano frps.ini
-
-# Example configuration for frps.ini:
- [common]
- bind_port = 7000
- vhost_http_port = 80
- vhost_https_port = 443
- dashboard_port = 7500
- dashboard_user = admin
- dashboard_pwd = admin
-
-# Step 6: Run the FRP server
-./frps -c ./frps.ini
-
-# Step 7: Open required ports in the firewall (if applicable)
-sudo ufw allow 7000
-sudo ufw allow 80
-sudo ufw allow 443
-sudo ufw allow 7500
-
-# Step 8: Create a systemd service to start FRP on boot (optional)
-sudo nano /etc/systemd/system/frps.service
-
-# Example systemd service file content:
-# [Unit]
-# Description=FRP Server
-# After=network.target
-#
-# [Service]
-# ExecStart=/path/to/frps -c /path/to/frps.ini
-# WorkingDirectory=/path/to/frp_folder
-# Restart=on-failure
-# User=your_username
-#
-# [Install]
-# WantedBy=multi-user.target
-
-# Step 9: Enable and start the FRP service
-sudo systemctl enable frps
-sudo systemctl start frps
-
-# Step 10: Check the status of the FRP server
-sudo systemctl status frps
-
-
-#YOUR FRPS SERVER WILL BE DEPLOYED AND YOU CAN SEE:
-![frps](https://github.com/user-attachments/assets/93b3d3c1-bc17-4a42-95d2-4aade1b8b17b)
+# AWS-EC2-Automation-with-Terraform
+This repository contains Terraform scripts to automate the provisioning of AWS EC2 instances. It simplifies infrastructure management by enabling declarative configuration, ensuring consistency, and reducing manual effort.
+## Automating AWS EC2 Provisioning with Terraform
+- **Step 1:-**  Login to your AWS Management Console. 
+- **Step 2:-** Create a EC2 Instance  .
+- **Step 3:-** Then Select  the instance and click on connect.
+- **Step 4:-** Then  **Install Terraform**.
+    - **Windows**
+      -  Download Terraform from the [Terraform website].
+      -  Extract the .zip file and add it to your system’s PATH.
+      -  Verify the installation: ` terraform --version`
+    - **macOS(Using Homebrew)**
+        ```
+        brew tap hashicorp/tap
+        brew install hashicorp/tap/terraform
+        terraform --version
+        ```
+    - **Linux**
+       ```
+      sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+      wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+      echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee 
+         /etc/apt/sources.list.d/hashicorp.list
+      sudo apt-get update && sudo apt-get install terraform
+      terraform --version
+       ```
+          
+- **Step 5:-** **Configuring Terraform for AWS**
+  Terraform requires AWS credentials to interact with your AWS environment. 
+  You can configure AWS credentials in two ways:
+  - **Using AWS CLI**
+     - Install AWS CLI:
+       ```
+       sudo apt install awscli  # Linux
+       brew install awscli       # macOS
+       ```
+    - Configure AWS:
+      ```
+      aws configure
+      ```
+- **Step 1:-**
+- **Step 1:-**
+- **Step 1:-**
+- **Step 1:-**
+**Step 1:-**
+**Step 1:-**
 
 
