@@ -1,5 +1,19 @@
 #OVERVIEW:mindmap generated via NOTEBOOKLM
+
+
+
+
+
+
+
 ![NotebookLM Mind Map](https://github.com/user-attachments/assets/9d7915c4-1e4d-403f-a0b2-df94cf7a1146)
+
+
+
+
+
+
+
 
 # Deployment-Strategies-of-Cloud
 ## Introduction
