@@ -1,3 +1,6 @@
+#OVERVIEW:mindmap generated via NOTEBOOKLM
+![NotebookLM Mind Map](https://github.com/user-attachments/assets/9d7915c4-1e4d-403f-a0b2-df94cf7a1146)
+
 # Deployment-Strategies-of-Cloud
 ## Introduction
 First let us understand what Cloud is and what cloud computing is then we will come to the issue of deployment strategies of cloud. Cloud is the computing resources which are provided to us like storage, RAM, CPU, networking etc. over the internet.
