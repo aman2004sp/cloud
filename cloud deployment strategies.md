@@ -49,7 +49,18 @@ Some Advantages of Public Cloud are:
 - High Scalability – Instantly increase or decrease resources according to need.
 - Reliability – Cloud providers like AWS offer high uptime (99.99%) and they have a contract for the same.
 - Global Reach – We can access resources from anywhere using just an internet connection and logging in to cloud providers site.
-- Low Cost – We dont have to pay for hardware set up like servers and computing resources like CPU, RAM, Storage etc. as the cloud provider does it for us. 
+- Low Cost – We dont have to pay for hardware set up like servers and computing resources like CPU, RAM, Storage etc. as the cloud provider does it for us.
+
+### CASE STUDY PUBLIC CLOUD APPLICATION:
+1. **High Scalability**:
+   - Netflix uses **AWS Auto Scaling** and **Elastic Load Balancing** to handle varying traffic loads. For instance, during peak hours or new show releases, these services automatically scale up resources to meet demand and scale down during off-peak times, ensuring cost efficiency.
+2. **Reliability**:
+   - AWS provides a **Service Level Agreement (SLA)** guaranteeing 99.99% uptime. Netflix leverages AWS's **global infrastructure** with multiple availability zones and regions to ensure redundancy and fault tolerance. This minimizes downtime and ensures uninterrupted streaming.
+3. **Global Reach**:
+   - Netflix uses AWS's **Content Delivery Network (CDN)** service, **Amazon CloudFront**, to cache content at edge locations worldwide. This ensures that users can stream videos with minimal latency, regardless of their location.
+4. **Low Cost**:
+   - By using AWS's **pay-as-you-go model**, Netflix avoids the upfront costs of purchasing and maintaining physical servers. Instead, they pay only for the resources they use, such as storage (via **Amazon S3**) and computing power (via **Amazon EC2**).
+
 ### 2. Private Cloud:
  This is a cloud computing model where resources are exclusively used and owned by a single organization. It provides greater control, security, and customization, making it ideal for businesses with strict data security and compliance requirements. Examples include Openstack, VMware.
 The single organisation hosting the private cloud has full control over it and its hardware resources which gives it <ins> TCO or total cost of ownership over its product </ins>
@@ -58,6 +69,8 @@ Advantages:
 - TCO – The company has full control over their resources and hardware which is an ideal situation instead of 3rd party controlling it
 - High security – Company has full access and ownership over resources so automatically the security also increases
 - Increased Performance – There is no resource sharing with other users so performance is increased.
+
+### EXAMPLE-CAPITAL ONE
 
 ### Various Deployment Strategies of Cloud:
 
