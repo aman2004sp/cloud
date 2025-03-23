@@ -20,6 +20,11 @@
 First let us understand what Cloud is and what cloud computing is then we will come to the issue of deployment strategies of cloud. Cloud is the computing resources which are provided to us like storage, RAM, CPU, networking etc. over the internet.
 While cloud computing is using these on demand resources over the internet  for deploying applications or any other task without hardware being physically present with us. This ensures accesibility, scalability, observability, reliability, authenticity, security etc.
 Cloud computing works on 3 main models: 
+
+![IAAS](https://github.com/user-attachments/assets/e2f894db-c8ae-49b2-ade9-20469bd81310)
+![2](https://github.com/user-attachments/assets/bfd523b9-3f5b-4f10-95df-cdafa0990468)
+
+
 ### IAAS(Infrastructure as a service):
 - IaaS contains the basic building blocks for cloud IT and typically provides access to networking features, computers (virtual or on dedicated hardware), and data storage space.
 - This provides us with on demand computing resources, scalability and elasticity and full control over the infrastructure
