@@ -297,3 +297,35 @@ This model involves deploying Kubernetes clusters on top of OpenStack infrastruc
   - Set up an OpenStack cloud environment. Use OpenStack Magnum to provision Kubernetes clusters. Deploy containerized applications using Helm Charts. Use Ceph Storage for Kubernetes Persistent Volumes. Implement Kubernetes Operators for automated management of applications.
 
 - Companies using OpenStack for their IaaS (infrastructure as a service) and Kubernetes for their PaaS (platform as a service).
+
+
+
+
+
+## EXAMPLE FOR EACH DEPLYOMENT STRATEGY:
+
+
+1. **Public Cloud Only**:
+   - **Netflix**: Uses AWS for streaming services, leveraging scalability, global reach, and cost-effectiveness.
+
+2. **Private Cloud**:
+   - **Capital One**: Deploys private cloud infrastructure for secure financial transactions and compliance.
+
+3. **Public on Private**:
+   - **Hybrid Cloud Solutions**: Organizations like IBM integrate public cloud services with private cloud infrastructure for flexibility and scalability.
+
+4. **Public on Public**:
+   - **Instagram**: Operates entirely on public cloud platforms like AWS and Google Cloud for global accessibility.
+
+5. **Private on Public**:
+   - **Healthcare Providers**: Use private cloud environments hosted on public cloud infrastructure for secure patient data management.
+
+6. **Private on Private**:
+   - **Johnson Matthey**: Uses private cloud for sensitive data and intellectual property management.
+
+7. **Kubernetes over OpenStack**:
+   - **Telecom Companies**: Deploy Kubernetes clusters on OpenStack for container orchestration and infrastructure management.
+
+8. **OpenStack over Kubernetes**:
+   - **Cloud Service Providers**: Use OpenStack services within Kubernetes environments for enhanced scalability and resource management](https://fairbanks.nl/kubernetes-vs-openstack/).
+
