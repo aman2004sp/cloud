@@ -21,7 +21,6 @@ First let us understand what Cloud is and what cloud computing is then we will c
 While cloud computing is using these on demand resources over the internet  for deploying applications or any other task without hardware being physically present with us. This ensures accesibility, scalability, observability, reliability, authenticity, security etc.
 Cloud computing works on 3 main models: 
 
-![IAAS](https://github.com/user-attachments/assets/e2f894db-c8ae-49b2-ade9-20469bd81310)
 ![2](https://github.com/user-attachments/assets/bfd523b9-3f5b-4f10-95df-cdafa0990468)
 
 
