@@ -16,29 +16,12 @@
 
 
 # Deployment-Strategies-of-Cloud
-## Introduction
-First let us understand what Cloud is and what cloud computing is then we will come to the issue of deployment strategies of cloud. Cloud is the computing resources which are provided to us like storage, RAM, CPU, networking etc. over the internet.
-While cloud computing is using these on demand resources over the internet  for deploying applications or any other task without hardware being physically present with us. This ensures accesibility, scalability, observability, reliability, authenticity, security etc.
-Cloud computing works on 3 main models: 
+ 
 
 ![2](https://github.com/user-attachments/assets/bfd523b9-3f5b-4f10-95df-cdafa0990468)
 
 
-### IAAS(Infrastructure as a service):
-- IaaS contains the basic building blocks for cloud IT and typically provides access to networking features, computers (virtual or on dedicated hardware), and data storage space.
-- This provides us with on demand computing resources, scalability and elasticity and full control over the infrastructure
-- Examples include: AWS Ec2, Aws S3 bucket, AWS VPC
 
-### PAAS(Platform as a Service):
-- Provides a platform for developing, deploying, and managing applications without managing the underlying infrastructure.
-- The cloud provider handles operating systems, middleware, and runtime environments while we manage applications and data
-- Examples include: AWS elastic beanstlk (which is used for deploying and managing web applications), AWS RDS(Relational Database service)
-
-### SAAS(Software as a Service):
-- Delivers software applications over the internet on a subscription basis.
-- The cloud provider manages everything, including infrastructure, platform, and application, we just use the software
-- The advantage here is that we have ready to use applications and no installation is required.
-- Examples: AWS Marketplace offers AMI which has pre installed software which we can select according to our usage, Dropbox which is a cloud-based file storage service that runs on AWS.
 
 
 Here we will be talking about two types of cloud:
